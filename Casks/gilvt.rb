@@ -2,8 +2,7 @@ cask "gilvt" do
   version "0.1.0"
   sha256 "c4cf021dca24acbfadf507b567d5723e7e538766a1135b68b59f810683303577"
 
-  url "https://github.com/Gilvt-WTJ/gilvt/releases/download/v#{version}/Gilvt-#{version}.dmg",
-      verified: "github.com/Gilvt-WTJ/gilvt/"
+  url "https://github.com/Gilvt-WTJ/gilvt/releases/download/v#{version}/Gilvt-#{version}.dmg"
   name "gilvt"
   desc "Native terminal for running and reviewing parallel Claude Code and Codex sessions"
   homepage "https://gilvt.com/"
@@ -14,7 +13,7 @@ cask "gilvt" do
   end
 
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Gilvt.app"
 
