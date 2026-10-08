@@ -16,6 +16,8 @@ cask "gilvt" do
   depends_on macos: :big_sur
 
   app "Gilvt.app"
+  # The `gilvt` CLI also runs inside gilvt panes (it is on their PATH); this exposes it to other shells.
+  binary "#{appdir}/Gilvt.app/Contents/MacOS/gilvt"
 
   zap trash: [
     "~/.config/gilvt",
