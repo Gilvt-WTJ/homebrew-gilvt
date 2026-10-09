@@ -1,6 +1,6 @@
 cask "gilvt" do
-  version "0.2.0"
-  sha256 "42296aa9a64e31bdf02d9d74620a925b0311c2982f5da8aceba824b04f043184"
+  version "0.2.1"
+  sha256 "bc387ab69188b4ade0769c858e762bf128e6332198ffc8db0ebb5dcd067fadda"
 
   url "https://github.com/Gilvt-WTJ/gilvt/releases/download/v#{version}/Gilvt-#{version}.dmg"
   name "gilvt"
